@@ -11,7 +11,7 @@ using Pawnmorph.Utilities;
 using RimWorld;
 using UnityEngine;
 using Verse;
-using Verse.AI;
+using PipeSystem;
 
 namespace Pawnmorph.Buildings
 {
@@ -35,12 +35,12 @@ namespace Pawnmorph.Buildings
         {
             const float upFactor = 0.05f; 
 			base.Draw();
-			CompRefuelable comp = GetComp<CompRefuelable>();
+            CompResourceStorage comp = GetComp<CompResourceStorage>();
             GenDraw.FillableBarRequest r = new GenDraw.FillableBarRequest
             {
                 center = DrawPos + Vector3.up * 0.1f + new Vector3(0.05f, 0, upFactor),
                 size = BarSize,
-                fillPercent = comp.FuelPercentOfMax,
+                fillPercent = comp.AmountStoredPct,
                 filledMat = BatteryBarFilledMat,
                 unfilledMat = BatteryBarUnfilledMat,
                 margin = 0.05f

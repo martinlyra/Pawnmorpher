@@ -78,6 +78,12 @@ Feel free to suggest the next to be added, or if there are other QOL things you 
 			<displayName>HugsLib</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=818773962</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+		</li>
 	</modDependencies>
 	<loadBefore>
 	</loadBefore>
