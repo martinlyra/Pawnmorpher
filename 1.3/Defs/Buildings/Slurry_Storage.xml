@@ -60,7 +60,7 @@
 				</extractOptions>
 			</li>
 			<li Class="PipeSystem.CompProperties_ExplosiveContent">
-				<explosiveMaxRadius>12</explosiveMaxRadius>
+				<explosiveMaxRadius>3</explosiveMaxRadius>
 				<explosiveDamageType>MutagenCloud_Tiny</explosiveDamageType>
 				<explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
 				<startWickHitPointsPercent>0.7</startWickHitPointsPercent>

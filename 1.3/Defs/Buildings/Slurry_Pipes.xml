@@ -35,7 +35,7 @@
 		<statBases>
 			<MaxHitPoints>40</MaxHitPoints>
 			<WorkToBuild>35</WorkToBuild>
-			<Flammability>1.0</Flammability>
+			<Flammability>0.7</Flammability>
 			<Beauty>-2</Beauty>
 		</statBases>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
