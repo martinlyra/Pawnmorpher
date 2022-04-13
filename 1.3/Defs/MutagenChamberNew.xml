@@ -48,9 +48,9 @@
             </li>
             <li Class="CompProperties_Flickable" />
             <li Class="CompProperties_Explosive">
-                <explosiveRadius>2.66</explosiveRadius>
-                <explosiveDamageType>Flame</explosiveDamageType>
-            </li>
+                <explosiveRadius>3</explosiveRadius>
+				<explosiveDamageType>MutagenCloud_Large</explosiveDamageType>
+			</li>
             <li Class="CompProperties_Refuelable">
                 <fuelConsumptionRate>1.7</fuelConsumptionRate>
                 <fuelCapacity>1</fuelCapacity>
@@ -61,9 +61,6 @@
                     </thingDefs>
                 </fuelFilter>
                 <initialFuelPercent>0</initialFuelPercent>
-            </li>
-            <li>
-                <compClass>Pawnmorph.SlurryNet.SimpleSlurryRefillerComp</compClass>
             </li>
             <li Class="CompProperties_Glower">
                 <glowRadius>4</glowRadius>
